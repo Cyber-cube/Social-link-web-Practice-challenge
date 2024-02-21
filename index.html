@@ -15,25 +15,29 @@
         color: hsl(228, 45%, 44%);
       }
       .main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+        display: grid;
+        place-items: center;
+        flex-direction: column;
         background-color: hsl(0, 0%, 98%);
+      }
+      .main button {
+        background-color: #333333;
+        width: 75px;
+        color: white;
+        text-align: center;
       }
     </style>
   </head>
   <body>
     <div class="main">
-      Jessica Randall
-      London, United Kingdom
-      "Front-end developer and avid reader."
-
-      GitHub
-      Frontend Mentor
-      LinkedIn
-      Twitter
-      Instagram
+      <span>Jessica Randall</span><br>
+      <span>London, United Kingdom</span><br>
+      <span>"Front-end developer and avid reader.</span><br>
+      <button>GitHub</button><br>
+      <button>Frontend Mentor</button><br>
+      <button>LinkedIn</button><br>
+      <button>Twitter</button><br>
+      <button>Instagram</button><br>
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
